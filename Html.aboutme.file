@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> SOFT20181- Introudction </title>
+    <meta charset="UTF -8"> <!-- this allows other symbols to be shown such as @-->
+    <meta name="author" content="Luiza Gurung"> <!-- this will show who the author of the website is-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- this allows webpage to be disaplyed on phones and other devices.-->
+     <link rel="stylesheet" href="styles.css"> <!-- make sure to write this so css file can be linked on your header file-->
+</head>
+
+<body>
+<header class="main-page-header"> <!-- two different headers for one you cant see and this one is the one 
+  visible to users-->
+<h1>About me  </h1>
+<img src="https://uploads.onecompiler.io/4572qma2k/1792861572742/ntu.jpeg" alt="NTU logo" title="Ntu logo" width=500>
+</header>
+
+
+
+<nav class="navigation"> <!-- class so it is easier for css to style this section as a whole-->
+    <a href="#Profile">Profile</a>
+    |
+    <a href="#Indispensable Skills">Indispensable Skills</a>
+    |
+    <a href="#Experience">Experience</a>
+    |
+    <a href="#Qualification">Qualification</a>
+    |
+    <a href="#Other Interests">Other Interests</a>
+    
+</nav>
+
+<section class=" cv-section"> <!--Used a section beacuse it has it's own heading, content and clear purpose -->
+    
+    <h2 id="Profile"> Profile</h2>
+    <img src="https://uploads.onecompiler.io/4572qma2k/1792777520425/profile.jpg.jpeg" alt="HTML5 Icon" title="Luiza's picture" style="width:122px;height:125px;">
+    
+    
+   <article class="cv-content">
+
+            <p>
+                I am a second-year Software Engineering student at Nottingham Trent Univeristy with experience in Python, C++, Java and
+                HTML gained through academic studies and pratical pojects.I have a strong interest in software development and enjoy
+                learning new technologies. I am currently developing my skills in both web development and software engineering, with an
+                interest in front-end and back-end programming.
+            </p>
+
+            <p>
+                As vice president of the Nepalese Society, I have developed leadership,organisational and commuincational skills through
+                helping to organise events and promote the society across the university. I am also an active memeber of DevSoc, where
+                I engage with technology-related activities and opportunites to expand my technical knowledge.
+            </p>
+
+        </article>   <!-- use article because it is content inside the topic so in section -->
+</section>
+
+<section class=" cv-section">
+
+    <h2 id="Indispensable Skills"> Insdispensable Skils</h2>
+
+    <article class="cv-content">
+        <p>
+            <ul>   <!-- ul and li are used for unorderd lists and to display bullet points -->
+                <li>Experience using Python and C++ through university coursework.</li>
+                <li>Knowledge of Java and HTML.</li>
+                <li>Probelm solving and analytical thinkng.</li>
+                <li>Leadership and teamwork skills developed thrpugh society involvemnt.</li>
+                <li>Strong commuication and ogranisational skills.</li>
+                <Li>Ability to learn new technology quickly.</Li>
+            </ul>
+        </p>
+    </article>
+</section>
+
+<section class=" cv-section">
+    <h2 id="Experience"> Expereince </h2>
+
+    <article class="cv-content">
+        <ul>
+            <li>Developing a menu-based application using Python as part of first-year.</li>
+            <li>Created an airport managment system in C++ to display flight infromation,helicopter schedules and airport details.</li>
+            <li>Vice president of Nottingham Trent University Nepalese Society.</li>
+        </ul>
+    </article>
+</section>
+
+<section class="cv-section">
+    <h2 id="Qualification"> Qualification </h2>
+  
+    <article class="cv-content">
+        <b>Nottingham Trent University 2024-2028</b>
+        <ul>
+            <li>BSc Software Engineering</li>
+            <li>Currently in Second year</li>
+            <li>Achieved 2:1 in First Year</li>
+        </ul>
+    </article>
+</section>
+
+
+<section class="cv-section">
+    
+    <h2 id="Other Interests"> Interests </h2>
+    
+    <article class="cv-content">
+        <p>
+            I enjoy staying active while studying by participating in sports such as badmintion, table tennis and running which
+            helps me maintain an active and healthy lifestyle.
+        </p>
+        <p>
+            Other thing I enjoy are scrapbooking, collecting memorabilia and expereimenting with colouring techniques involving
+            light and shadow.
+        </p>
+        <p>In my free time, I enjoy playing video games, listening to true crime podcasts and watching horror films.</p>
+        <p>
+            To keep up with the rapidly evolving techonolgy industry, i enjoy watching technology focused content creatos who
+            discus emerging technologies, artificial intelligence, software development and the impact these advancements have
+            on society and businessses.
+        </p>
+    </article>
+</section>
+<footer class="main-footer"> <!-- this is the end of the webiste where u add coyright information and other deets-->
+        © 2026 Luiza Gurung | Nottingham Trent University
+    </footer>
+</body>
+</html>
