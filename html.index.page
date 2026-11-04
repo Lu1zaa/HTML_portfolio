@@ -1,0 +1,102 @@
+<!DOCTYPE html> <!-- tells the browser that this document modern HTML -->
+<html>           <!-- Does not have meta charset or meta name best to keep this in the head so mobile resposiveness and character encodings dont break -->
+<head>
+     <title>Luiza Gurung</title>
+</head>
+<body>
+
+    <h1>Luiza Gurung</h1>
+    <p>Software Engineering Student</p>
+
+    <nav>
+      <ul>
+        <li><a href="#Profile">Profile</a></li>
+      
+        <li><a href="#Skills">Skills</a></li>
+        
+        <li><a href="#Experience">Expereince</a></li>
+        
+        <li><a href="#Education">Education</a></li>
+        
+        <li><a href="#Contacts">Contacts</a></li>
+        
+        <li><a href="Aboutme.html">About Me</a></li>
+
+        </ul>
+    </nav>
+
+
+    <section>
+        <h2 id="Profile"> Profile</h2>
+        <article>
+            <p>
+                Motivated Software Engineering student at Nottingham Trent University with experience in Python, C++, Java and HTML gained through academic studies and practical projects. Currently in my second year, developing skills in web development and software engineering.
+                As Vice President of the Nepalese Society, I have strengthened my leadership, organisational and communication skills by helping to organise events and promote the society to students across the university.
+                I am also an active member of DevSoc, where I engage with technology-related events and opportunities to further develop my technical knowledge and industry awareness. A proactive and enthusiastic learner who enjoys problem-solving, working collaboratively and continuously developing new skills.
+            </p>
+        </article>
+    </section>
+
+    <section>
+    <article>
+        <h2 id="Skills"> Skills </h2>
+        <ul>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Leadership skills</li>
+            <li>Commuincation</li>
+            <li>Problem Solving</li>
+        </ul>
+       </article>
+        
+    </section>
+
+
+    <section>
+        <h2 id="Experience"> Experience </h2>
+        <article>
+            <ul>
+                <li>Python Coursework creating a menu system.</li>
+                <li>C++ coursework creating an airport management system.</li>
+                <li>Vice President of Nepali Society</li>
+                <li>Member of NTU DevSoc</li>
+            </ul>
+        </article>
+    </section>
+
+    <section>
+        <h2 id="Education"> Education</h2>
+        <article>
+            <p>
+                <h4>Nottingham trent University (2024- present)</h4>
+                <ul>
+                    <li>BSc Software Engineering</li>
+                </ul>
+            </p>
+
+            <article>
+                <h4>Farnborough Sixth From College (2021-2023) </h4>
+                <ul>
+                    <li>Biology</li>
+                    <li>Chemistry</li>
+                    <li>Psychology</li>
+                </ul>
+            </p>
+        </article>
+    </section>
+
+    <section>
+        <h2 id="Contacts"> Contacts </h2>
+        <article>
+            <ul>
+                <li>luizagurung04@gmail.com</li>
+                <li>07493413397</li>
+            </ul>
+        </article>
+    </section>
+    <footer class="main-footer"> <!-- this is the end of the webiste where u add coyright information and other deets-->
+        © 2026 Luiza Gurung | Nottingham Trent University
+    </footer>
+</body>
+</html>
